@@ -1,0 +1,13 @@
+.guess {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 75px;
+}
+
+.results {
+  text-align: center;
+}
+
+#output {
+  width: 30%;
+}
