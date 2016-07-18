@@ -9,9 +9,10 @@ function yourGuess() {
     if (guess == numToGuess) {
         guesses.value = guesses.value + "\r" + "You have guessed correctly! ("+guess+")";
     } else if (guess > numToGuess) {
-        guesses.value = guesses.value + "\r" + "Youre guessing too high!("+guess+")";
+        guesses.value = guesses.value + "\r" + "You're guessing too high!("+guess+")";
     } else {
-        guesses.value = guesses.value + "\r" + "Youre guessing too low!("+guess+")";
+        guesses.value = guesses.value + "\r" + "You're guessing too low!("+guess+")";
     }
 }
+
     
